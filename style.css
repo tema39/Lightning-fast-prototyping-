@@ -18,7 +18,7 @@ h6 {
 * {
   box-sizing: border-box;
 }
-.section__welcome {
+.welcome {
   background-image: url(/img/@\ Gradient.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -138,13 +138,13 @@ h6 {
   justify-content: center;
   margin-bottom: 230px;
 }
-.title__features-wrap {
+.features__title-wrap {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.text__features {
+.features__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -153,7 +153,7 @@ h6 {
   letter-spacing: 0.1px;
   margin-bottom: 17px;
 }
-.title__features {
+.features__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -162,7 +162,7 @@ h6 {
   letter-spacing: 0.2px;
   margin-bottom: 27px;
 }
-.text__subtitle {
+.features__text-subtitle {
   width: 298px;
   height: 40px;
   font-family: Roboto;
@@ -180,7 +180,7 @@ h6 {
   align-items: center;
   margin-bottom: 154px;
 }
-.img__media-wrap {
+.img__media-png {
   width: 949px;
   height: 530px;
   margin-right: 100px;
@@ -223,7 +223,7 @@ h6 {
 .leader__block {
   margin-bottom: 95px;
 }
-.section__prototyping {
+.prototyping {
   background-image: url("./img/banner.png");
   background-repeat: no-repeat;
   height: 516px;
@@ -231,14 +231,14 @@ h6 {
   background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
   margin-bottom: 216px;
 }
-.title__prototyping-wrap {
+.prototyping__title-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
-.text__over-title {
+.prototyping__over-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -249,7 +249,7 @@ h6 {
   margin-bottom: 17px;
   margin-top: 100px;
 }
-.title__prototyping {
+.prototyping__title {
   color: #ffffff;
   font-family: Roboto;
   font-style: normal;
@@ -259,7 +259,7 @@ h6 {
   letter-spacing: 0.2px;
   margin-bottom: 27px;
 }
-.text__subtitle-prototyping {
+.prototyping__text-subtitle {
   width: 298px;
   height: 40px;
   font-family: Roboto;
@@ -312,7 +312,7 @@ h6 {
 .fast__prototyping-wrap {
   margin-right: 123px;
 }
-.over__text-title {
+.posting__over-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -322,7 +322,7 @@ h6 {
   color: #252b42;
   margin-bottom: 17px;
 }
-.title__fast-prototyping {
+.fast__prototyping-title {
   width: 296px;
   height: 114px;
   font-family: Roboto;
@@ -387,14 +387,14 @@ h6 {
   align-items: center;
   margin-bottom: 191px;
 }
-.title__partners-wrap {
+.partners__title-wrap {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom: 110px;
 }
-.title__partners {
+.partners__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -403,7 +403,7 @@ h6 {
   letter-spacing: 0.2px;
   margin-bottom: 27px;
 }
-.subtitle__partners {
+.partners__title__subtitle {
   width: 298px;
   height: 40px;
   font-family: Roboto;
@@ -415,19 +415,19 @@ h6 {
   color: #374754;
   text-align: center;
 }
-.list__links-partners {
+.partners__list-links {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-.list__link-item {
+.partners__list-item {
   margin-right: 67px;
   margin-bottom: 105px;
 }
-.list__link-item:nth-child(7) {
+.partners__link-item:nth-child(7) {
   margin-right: 0px;
 }
-.button__partners {
+.partners__button {
   background: #2091f9;
   border: 1px solid #2091f9;
   border-radius: 35px;
@@ -456,7 +456,7 @@ h6 {
   letter-spacing: 0.2px;
   color: #252b42;
 }
-.list__testimonials-card {
+.testimonials__list-card {
   list-style: none;
   width: 1220px;
   height: 1186px;
@@ -484,11 +484,11 @@ h6 {
 .testimonials__card-item:nth-child(6) {
   margin-right: 0px;
 }
-.card__img {
+.testimonials__card-img {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.card__text {
+.testimonials__card-text {
   width: 251px;
   height: 108px;
   font-family: Roboto;
@@ -501,10 +501,10 @@ h6 {
   margin: 0px auto;
   margin-bottom: 40px;
 }
-.card__img-star {
+.testimonials__card-star {
   margin-bottom: 32px;
 }
-.card__name {
+.testimonials__card-name {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -514,7 +514,7 @@ h6 {
   color: #252b42;
   margin-bottom: 10px;
 }
-.card__text-designer {
+.testimonials__card-designer {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -569,7 +569,7 @@ h6 {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-.title__free-trial {
+.free__trial-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -582,7 +582,7 @@ h6 {
 .free__trial-wrap {
   padding-top: 85px;
 }
-.icon__text-wrap {
+.free__icon-text {
   display: flex;
   align-items: center;
   text-align: center;
@@ -600,7 +600,7 @@ h6 {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-.text__free-trial {
+.free__trial-text {
   width: 218px;
   height: 60px;
   font-family: Roboto;
@@ -612,7 +612,7 @@ h6 {
   color: #ffffff;
   margin-bottom: 19px;
 }
-.button__started {
+.free__trial-button {
   background: #2091f9;
   border-radius: 35px;
   padding: 18px 38px;
@@ -656,34 +656,34 @@ h6 {
   text-align: center;
   margin-bottom: 75px;
 }
-.list__contact-network {
+.contact__network-list {
   list-style: none;
   display: flex;
   margin-bottom: 75px;
 }
-.list__network-item {
+.contact__network-item {
   margin-right: 33px;
 }
-.list__network-item:nth-child(3) {
+.contact__network-item:nth-child(3) {
   margin-right: 0px;
 }
-.maps__wrap {
+.contact__maps-wrap {
   margin-bottom: 60px;
 }
-.list__location {
+.location__list {
   list-style: none;
   display: flex;
   align-items: center;
   text-align: center;
   margin-bottom: 60px;
 }
-.list__location-item {
+.location__list-item {
   margin-right: 35px;
 }
-.list__location-item:nth-child(3) {
+.location__list-item:nth-child(3) {
   margin-right: 0px;
 }
-.item__icon {
+.location__icon {
   margin-bottom: 20px;
 }
 .address {
@@ -781,7 +781,7 @@ h6 {
   text-align: start;
   margin-bottom: 45px;
 }
-.button__send {
+.contact__button-send {
   background: #2091f9;
   border-radius: 35px;
   padding: 18px 54px;
@@ -809,11 +809,11 @@ h6 {
   display: flex;
   margin-top: 117px;
 }
-.list__pages {
+.pages__list {
   list-style: none;
   margin-right: 128px;
 }
-.list__title-pages {
+.pages__title {
   margin-bottom: 25px;
   font-family: Roboto;
   font-style: normal;
@@ -823,10 +823,10 @@ h6 {
   letter-spacing: 0.1px;
   color: #ffffff;
 }
-.list__pages-item {
+.pages__list-item {
   margin-bottom: 16px;
 }
-.link__pages {
+.pages__link {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -836,11 +836,11 @@ h6 {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-.list__tomothy {
+.tomothy__list {
   list-style: none;
   margin-right: 91px;
 }
-.list__title-tomothy {
+.tomothy__list-title {
   margin-bottom: 25px;
   font-family: Roboto;
   font-style: normal;
@@ -850,10 +850,10 @@ h6 {
   letter-spacing: 0.1px;
   color: #ffffff;
 }
-.list__tomothy-item {
+.tomothy__list-item {
   margin-bottom: 16px;
 }
-.list__link-tomothy {
+.tomothy__link {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -863,11 +863,11 @@ h6 {
   color: #ffffff;
   text-decoration: none;
 }
-.list__jane-black {
+.jane__black-list {
   list-style: none;
   margin-right: 159px;
 }
-.list__title-black {
+.jane__black-title {
   margin-bottom: 25px;
   font-family: Roboto;
   font-style: normal;
@@ -877,10 +877,10 @@ h6 {
   letter-spacing: 0.1px;
   color: #ffffff;
 }
-.list__black-item {
+.jane__black-item {
   margin-bottom: 16px;
 }
-.list__link-black {
+.jane__black-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -890,11 +890,11 @@ h6 {
   color: #ffffff;
   text-decoration: none;
 }
-.list__networks {
+.networks__list {
   display: flex;
   list-style: none;
 }
-.list__networks-item {
+.networks__list-item {
   margin-right: 32px;
   margin-bottom: 33px;
 }
@@ -903,7 +903,7 @@ h6 {
   height: 303px;
   margin-top: 113px;
 }
-.title__exclusiv {
+.exclusiv__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -913,7 +913,7 @@ h6 {
   color: #ffffff;
   margin-bottom: 5px;
 }
-.text__exclusiv {
+.exclusiv__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -950,4 +950,3 @@ h6 {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-
