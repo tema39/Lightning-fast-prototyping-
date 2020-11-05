@@ -52,7 +52,7 @@ h6 {
   justify-content: center;
   margin-bottom: 152px;
 }
-.logo-wrap {
+.header__logo-wrap {
   margin-right: 22px;
   margin-top: 50px;
 }
@@ -79,7 +79,7 @@ h6 {
   font-size: 16px;
   line-height: 16px;
 }
-.center__title-wrap {
+.center__wrap {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -941,7 +941,7 @@ h6 {
   background: #2091f9;
   border: 1px solid #2091f9;
   border-radius: 35px;
-  padding: 17px 195px 17px 195px;
+  padding: 17px 190px 17px 190px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
