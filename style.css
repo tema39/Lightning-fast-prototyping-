@@ -388,7 +388,7 @@ h6 {
 }
 .partners__title__subtitle {
   width: 298px;
-  margin-bottom: 120px;
+  margin-bottom: 110px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -401,15 +401,13 @@ h6 {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-bottom:  105px;
+  margin-bottom:  100px;
 }
 .partners__list-item {
   margin-right: 67px;
 }
 .partners__list-item:nth-last-child(1) {
   margin-right: 0px;
-}
-.partners__link-button {
 }
 .partners__button {
   background: #2091f9;
@@ -488,8 +486,13 @@ margin-bottom: 104px;
   margin: 0px auto;
   margin-bottom: 40px;
 }
-.testimonials__card-star {
+.testimonials__block-star {
+  display: flex;
+  justify-content: center;
   margin-bottom: 32px;
+}
+.testimonials__card-star {
+  margin-right: 4px;
 }
 .testimonials__card-name {
   font-style: normal;
