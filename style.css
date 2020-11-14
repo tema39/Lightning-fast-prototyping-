@@ -898,7 +898,7 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.1px;
   color: #18171d;
-  width: 359px;
+  width: 353px;
 }
 .exclusiv__subsribe {
   background: #2091f9;
@@ -911,7 +911,7 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.2px;
   color: #ffffff;
-  width: 359px;
+  width: 352px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -1063,12 +1063,6 @@ h6 {
     margin: 0px auto 485px;
     text-align: center;
   }
-  .newsletter__title {
-    
-  }
-  .newsletter__text {
-  
-  }
   .partners {
     padding-top: 60px;
     padding-bottom: 50px;
@@ -1160,7 +1154,7 @@ h6 {
   .location__text {
     width: 208px;
     text-align: left;
-  } 
+  }
   .form_group {
     width: 370px;
   }
@@ -1175,8 +1169,6 @@ h6 {
   .input__form-message {
     width: 280px;
     padding: 23px 163px 154px 20px;
-  }
-  .contact__link-button {
   }
   .contact__button-send {
     margin: 0px;
@@ -1210,11 +1202,10 @@ h6 {
     text-align: center;
   }
   .input__email {
-    padding: 19px 150px 19px 35px; 
+    padding: 19px 150px 19px 35px;
   }
-  .exclusiv__subsribe {
-    
-  }
+}
+@media screen and (max-width: 375px) {
 }
 @media screen and (max-width: 320px) {
   .header__logo-wrap {
@@ -1386,7 +1377,7 @@ h6 {
   .location__text {
     width: 208px;
     text-align: left;
-  } 
+  }
   .form_group {
     width: 310px;
   }
