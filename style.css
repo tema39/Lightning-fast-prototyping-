@@ -932,8 +932,8 @@ h6 {
   color: #ffffff;
 }
 @media screen and (min-width: 320px) {
-  .header__mobile-list {
-    display: block;
+  .active {
+    display:block;
   }
   .pricing {
     flex-direction: column;
